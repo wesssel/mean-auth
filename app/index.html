@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Mean Login</title>
+    <link rel="stylesheet" href="css/app.min.css" />
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+
+    <!-- angular --> 
+    <script type="text/javascript" src="vendor/angular/angular.min.js"></script>
+    <script type="text/javascript" src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+  </head>
+  <body>
+
+    <ui-view></ui-view>    
+
+    <!-- app -->
+    <script src="app.js"></script>
+    <script src="routes.js"></script>
+
+    <script src="profile/profile.controller.js"></script>
+    <script src="profile/profile.service.js"></script>
+    
+  </body>
+</html>
